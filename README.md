@@ -1,6 +1,12 @@
 # vscode-lite-server
 Launch lite-server on VSCodeLaunch lite-server on VSCode
 
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items/cssho.vscode-lite-server)
+
+[![](https://vsmarketplacebadge.apphb.com/version/cssho.vscode-lite-server.svg)](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-lite-server)
+[![](https://vsmarketplacebadge.apphb.com/installs/cssho.vscode-lite-server.svg)](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-lite-server)
+[![](https://vsmarketplacebadge.apphb.com/rating/cssho.vscode-lite-server.svg)](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-lite-server)
+
 ## lite-server
 > Lightweight node server
 
