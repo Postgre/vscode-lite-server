@@ -64,11 +64,6 @@
         "url": "https://github.com/cssho/vscode-lite-server.git"
     },
     "license": "MIT",
-    "icon": "icon.png",
-    "galleryBanner": {
-        "color": "#93E4D5",
-        "theme": "light"
-    },
     "bugs": {
         "url": "https://github.com/cssho/vscode-lite-server/issues"
     },
