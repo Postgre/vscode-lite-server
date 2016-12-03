@@ -1,0 +1,80 @@
+{
+    "name": "vscode-lite-server",
+    "displayName": "vscode-lite-server",
+    "description": "Launch lite-server on VSCode",
+    "version": "1.0.0",
+    "publisher": "cssho",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "lite-server.launch",
+                "title": "Launch lite-server"
+            },
+            {
+                "command": "lite-server.stop",
+                "title": "Stop lite-server"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "lite-server.launch",
+                "key": "alt+l l"
+            },
+            {
+                "command": "lite-server.stop",
+                "key": "alt+l s"
+            }
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "vscode-lite-server configuration",
+            "properties": {
+                "vscode-lite-server.configFilePath": {
+                    "type": "string",
+                    "default": null,
+                    "description": "lite-server configuration file path."
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "vscode": "^0.11.0"
+    },
+    "dependencies": {
+        "lite-server": "^2.2.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cssho/vscode-lite-server.git"
+    },
+    "license": "MIT",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#93E4D5",
+        "theme": "light"
+    },
+    "bugs": {
+        "url": "https://github.com/cssho/vscode-lite-server/issues"
+    },
+    "homepage": "https://github.com/cssho/vscode-lite-server/blob/master/README.md",
+    "keywords": [
+        "http",
+        "server"
+    ]
+}
