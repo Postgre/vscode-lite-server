@@ -2,7 +2,7 @@
     "name": "vscode-lite-server",
     "displayName": "vscode-lite-server",
     "description": "Launch lite-server on VSCode",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "cssho",
     "engines": {
         "vscode": "^1.5.0"
