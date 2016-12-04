@@ -17,8 +17,8 @@ Launch lite-server on VSCodeLaunch lite-server on VSCode
 0. Press Enter and restart VSCode.
 0. Choose process from `Command Palette` or `Shortcut`.
 
-### View SVG - `Alt+L L`
+### Launch lite-server - `Alt+L L`
 Launch lite-server
 
-### Export PNG - `Alt+L S`
+### Stop lite-server - `Alt+L S`
 Stop lite-server
